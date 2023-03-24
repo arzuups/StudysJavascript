@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    height: 30px;
+    padding: 5px;
+    width: 400px;
+    max-width: 100%;
+    font-size: 16px;
+}
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.search-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    
+
+}
+.lucky-button {
+    background-color: #fbbc05;
+    color: #fff;
+    padding: 10px;
+    
+}
